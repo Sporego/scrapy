@@ -13,6 +13,18 @@ async function scrapeProduct(url) {
   //
   //
 
+  const fs = require("fs");
+
+  fs.readFile("myjsonfile.json", (err, data2) => {
+    if (err) throw err;
+    console.log("The file has been saved!");
+    if (data2) {
+      data = JSON.parse(data2);
+      console.log("Data Imported");
+      console.log(data);
+    }
+  });
+
   const [el1a] = await page.$x(
     "/html/body/div[2]/div/div[1]/div[1]/div[2]/div[2]/div[1]/div/div/div[2]/h2/a/span"
   );
@@ -586,20 +598,28 @@ async function scrapeProduct(url) {
   //
   console.log(data);
   //
-}
 
-scrapeProduct(
-  "https://www.yellowpages.com/search?search_terms=cpa&geo_location_terms=New%20York%2C%20NY&page=2"
-);
+  const dataString = JSON.stringify(data, null, 2);
+
+  fs.writeFile("myjsonfile.json", dataString, "utf8", err => {
+    if (err) throw err;
+    console.log("The file has been saved!");
+  });
+}
 
 let arr = [];
 
-for (i = 1; i < 99; i++) {
-  const url2 =
-    "https://www.yellowpages.com/search?search_terms=cpa&geo_location_terms=New%20York%2C%20NY&page=" +
-    i;
+for (i = 1; i < 101; i++) {
+  (function(i) {
+    setTimeout(function() {
+      const url2 =
+        "https://www.yellowpages.com/search?search_terms=cpa&geo_location_terms=New%20York%2C%20NY&page=" +
+        i;
 
-  arr.push(url2);
+      scrapeProduct(url2);
+      console.log("Cycle i=" + i);
+
+      console.log(arr);
+    }, 20000 * i + Math.floor(Math.random() * 10000 + 1));
+  })(i);
 }
-
-console.log(arr);
