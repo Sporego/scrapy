@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Sporego/scrapy/issues"
   },
-  "homepage": "https://github.com/Sporego/scrapy#readme"
+  "homepage": "https://github.com/Sporego/scrapy#readme",
+  "dependencies": {
+    "puppeteer": "^2.1.1"
+  }
 }
