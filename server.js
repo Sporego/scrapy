@@ -111,13 +111,13 @@ async function scrapeProduct(url) {
   const [el6a] = await page.$x(
     "/html/body/div[2]/div/div[1]/div[1]/div[2]/div[2]/div[6]/div/div/div[2]/h2/a/span"
   );
-  const text4a = await el6a.getProperty("textContent");
+  const text6a = await el6a.getProperty("textContent");
   Title = await text6a.jsonValue();
 
   const [el6b] = await page.$x(
     "/html/body/div[2]/div/div[1]/div[1]/div[2]/div[2]/div[6]/div/div/div[2]/div[2]/div[1]"
   );
-  const text6b = await el4b.getProperty("textContent");
+  const text6b = await el6b.getProperty("textContent");
   Telephone = await text6b.jsonValue();
 
   data.push({ Title, Telephone });
@@ -130,13 +130,13 @@ async function scrapeProduct(url) {
   const [el7a] = await page.$x(
     "/html/body/div[2]/div/div[1]/div[1]/div[2]/div[2]/div[7]/div/div/div[2]/h2/a/span"
   );
-  const text4a = await el7a.getProperty("textContent");
+  const text7a = await el7a.getProperty("textContent");
   Title = await text7a.jsonValue();
 
   const [el7b] = await page.$x(
     "/html/body/div[2]/div/div[1]/div[1]/div[2]/div[2]/div[7]/div/div/div[2]/div[2]/div[1]"
   );
-  const text7b = await el4b.getProperty("textContent");
+  const text7b = await el7b.getProperty("textContent");
   Telephone = await text7b.jsonValue();
 
   data.push({ Title, Telephone });
@@ -149,13 +149,13 @@ async function scrapeProduct(url) {
   const [el8a] = await page.$x(
     "/html/body/div[2]/div/div[1]/div[1]/div[2]/div[2]/div[8]/div/div/div[2]/h2/a/span"
   );
-  const text4a = await el8a.getProperty("textContent");
+  const text8a = await el8a.getProperty("textContent");
   Title = await text8a.jsonValue();
 
   const [el8b] = await page.$x(
     "/html/body/div[2]/div/div[1]/div[1]/div[2]/div[2]/div[8]/div/div/div[2]/div[2]/div[1]"
   );
-  const text8b = await el4b.getProperty("textContent");
+  const text8b = await el8b.getProperty("textContent");
   Telephone = await text8b.jsonValue();
 
   data.push({ Title, Telephone });
@@ -168,13 +168,13 @@ async function scrapeProduct(url) {
   const [el9a] = await page.$x(
     "/html/body/div[2]/div/div[1]/div[1]/div[2]/div[2]/div[9]/div/div/div[2]/h2/a/span"
   );
-  const text4a = await el9a.getProperty("textContent");
+  const text9a = await el9a.getProperty("textContent");
   Title = await text9a.jsonValue();
 
   const [el9b] = await page.$x(
     "/html/body/div[2]/div/div[1]/div[1]/div[2]/div[2]/div[9]/div/div/div[2]/div[2]/div[1]"
   );
-  const text9b = await el4b.getProperty("textContent");
+  const text9b = await el9b.getProperty("textContent");
   Telephone = await text9b.jsonValue();
 
   data.push({ Title, Telephone });
@@ -187,13 +187,13 @@ async function scrapeProduct(url) {
   const [el10a] = await page.$x(
     "/html/body/div[2]/div/div[1]/div[1]/div[2]/div[2]/div[10]/div/div/div[2]/h2/a/span"
   );
-  const text4a = await el10a.getProperty("textContent");
+  const text10a = await el10a.getProperty("textContent");
   Title = await text10a.jsonValue();
 
   const [el10b] = await page.$x(
     "/html/body/div[2]/div/div[1]/div[1]/div[2]/div[2]/div[10]/div/div/div[2]/div[2]/div[1]"
   );
-  const text10b = await el4b.getProperty("textContent");
+  const text10b = await el10b.getProperty("textContent");
   Telephone = await text10b.jsonValue();
 
   data.push({ Title, Telephone });
@@ -206,13 +206,13 @@ async function scrapeProduct(url) {
   const [el11a] = await page.$x(
     "/html/body/div[2]/div/div[1]/div[1]/div[2]/div[2]/div[11]/div/div/div[2]/h2/a/span"
   );
-  const text4a = await el11a.getProperty("textContent");
+  const text11a = await el11a.getProperty("textContent");
   Title = await text11a.jsonValue();
 
   const [el11b] = await page.$x(
     "/html/body/div[2]/div/div[1]/div[1]/div[2]/div[2]/div[11]/div/div/div[2]/div[2]/div[1]"
   );
-  const text11b = await el4b.getProperty("textContent");
+  const text11b = await el11b.getProperty("textContent");
   Telephone = await text11b.jsonValue();
 
   data.push({ Title, Telephone });
@@ -225,13 +225,13 @@ async function scrapeProduct(url) {
   const [el12a] = await page.$x(
     "/html/body/div[2]/div/div[1]/div[1]/div[2]/div[2]/div[12]/div/div/div[2]/h2/a/span"
   );
-  const text4a = await el12a.getProperty("textContent");
+  const text12a = await el12a.getProperty("textContent");
   Title = await text12a.jsonValue();
 
   const [el12b] = await page.$x(
     "/html/body/div[2]/div/div[1]/div[1]/div[2]/div[2]/div[12]/div/div/div[2]/div[2]/div[1]"
   );
-  const text12b = await el4b.getProperty("textContent");
+  const text12b = await el12b.getProperty("textContent");
   Telephone = await text12b.jsonValue();
 
   data.push({ Title, Telephone });
@@ -244,13 +244,13 @@ async function scrapeProduct(url) {
   const [el13a] = await page.$x(
     "/html/body/div[2]/div/div[1]/div[1]/div[2]/div[2]/div[13]/div/div/div[2]/h2/a/span"
   );
-  const text4a = await el13a.getProperty("textContent");
+  const text13a = await el13a.getProperty("textContent");
   Title = await text13a.jsonValue();
 
   const [el13b] = await page.$x(
     "/html/body/div[2]/div/div[1]/div[1]/div[2]/div[2]/div[13]/div/div/div[2]/div[2]/div[1]"
   );
-  const text13b = await el4b.getProperty("textContent");
+  const text13b = await el13b.getProperty("textContent");
   Telephone = await text13b.jsonValue();
 
   data.push({ Title, Telephone });
@@ -263,13 +263,13 @@ async function scrapeProduct(url) {
   const [el14a] = await page.$x(
     "/html/body/div[2]/div/div[1]/div[1]/div[2]/div[2]/div[14]/div/div/div[2]/h2/a/span"
   );
-  const text4a = await el14a.getProperty("textContent");
+  const text14a = await el14a.getProperty("textContent");
   Title = await text14a.jsonValue();
 
   const [el14b] = await page.$x(
     "/html/body/div[2]/div/div[1]/div[1]/div[2]/div[2]/div[14]/div/div/div[2]/div[2]/div[1]"
   );
-  const text14b = await el4b.getProperty("textContent");
+  const text14b = await el14b.getProperty("textContent");
   Telephone = await text14b.jsonValue();
 
   data.push({ Title, Telephone });
@@ -282,13 +282,13 @@ async function scrapeProduct(url) {
   const [el15a] = await page.$x(
     "/html/body/div[2]/div/div[1]/div[1]/div[2]/div[2]/div[15]/div/div/div[2]/h2/a/span"
   );
-  const text4a = await el15a.getProperty("textContent");
+  const text15a = await el15a.getProperty("textContent");
   Title = await text15a.jsonValue();
 
   const [el15b] = await page.$x(
     "/html/body/div[2]/div/div[1]/div[1]/div[2]/div[2]/div[15]/div/div/div[2]/div[2]/div[1]"
   );
-  const text15b = await el4b.getProperty("textContent");
+  const text15b = await el15b.getProperty("textContent");
   Telephone = await text15b.jsonValue();
 
   data.push({ Title, Telephone });
@@ -301,13 +301,13 @@ async function scrapeProduct(url) {
   const [el16a] = await page.$x(
     "/html/body/div[2]/div/div[1]/div[1]/div[2]/div[2]/div[16]/div/div/div[2]/h2/a/span"
   );
-  const text4a = await el16a.getProperty("textContent");
+  const text16a = await el16a.getProperty("textContent");
   Title = await text16a.jsonValue();
 
   const [el16b] = await page.$x(
     "/html/body/div[2]/div/div[1]/div[1]/div[2]/div[2]/div[16]/div/div/div[2]/div[2]/div[1]"
   );
-  const text16b = await el4b.getProperty("textContent");
+  const text16b = await el16b.getProperty("textContent");
   Telephone = await text16b.jsonValue();
 
   data.push({ Title, Telephone });
@@ -320,13 +320,13 @@ async function scrapeProduct(url) {
   const [el17a] = await page.$x(
     "/html/body/div[2]/div/div[1]/div[1]/div[2]/div[2]/div[17]/div/div/div[2]/h2/a/span"
   );
-  const text4a = await el17a.getProperty("textContent");
+  const text17a = await el17a.getProperty("textContent");
   Title = await text17a.jsonValue();
 
   const [el17b] = await page.$x(
     "/html/body/div[2]/div/div[1]/div[1]/div[2]/div[2]/div[17]/div/div/div[2]/div[2]/div[1]"
   );
-  const text17b = await el4b.getProperty("textContent");
+  const text17b = await el17b.getProperty("textContent");
   Telephone = await text17b.jsonValue();
 
   data.push({ Title, Telephone });
@@ -339,13 +339,13 @@ async function scrapeProduct(url) {
   const [el18a] = await page.$x(
     "/html/body/div[2]/div/div[1]/div[1]/div[2]/div[2]/div[18]/div/div/div[2]/h2/a/span"
   );
-  const text4a = await el18a.getProperty("textContent");
+  const text18a = await el18a.getProperty("textContent");
   Title = await text18a.jsonValue();
 
   const [el18b] = await page.$x(
     "/html/body/div[2]/div/div[1]/div[1]/div[2]/div[2]/div[18]/div/div/div[2]/div[2]/div[1]"
   );
-  const text18b = await el4b.getProperty("textContent");
+  const text18b = await el18b.getProperty("textContent");
   Telephone = await text18b.jsonValue();
 
   data.push({ Title, Telephone });
@@ -358,13 +358,13 @@ async function scrapeProduct(url) {
   const [el19a] = await page.$x(
     "/html/body/div[2]/div/div[1]/div[1]/div[2]/div[2]/div[19]/div/div/div[2]/h2/a/span"
   );
-  const text4a = await el19a.getProperty("textContent");
+  const text19a = await el19a.getProperty("textContent");
   Title = await text19a.jsonValue();
 
   const [el19b] = await page.$x(
     "/html/body/div[2]/div/div[1]/div[1]/div[2]/div[2]/div[19]/div/div/div[2]/div[2]/div[1]"
   );
-  const text19b = await el4b.getProperty("textContent");
+  const text19b = await el19b.getProperty("textContent");
   Telephone = await text19b.jsonValue();
 
   data.push({ Title, Telephone });
@@ -377,13 +377,13 @@ async function scrapeProduct(url) {
   const [el20a] = await page.$x(
     "/html/body/div[2]/div/div[1]/div[1]/div[2]/div[2]/div[20]/div/div/div[2]/h2/a/span"
   );
-  const text4a = await el20a.getProperty("textContent");
+  const text20a = await el20a.getProperty("textContent");
   Title = await text20a.jsonValue();
 
   const [el20b] = await page.$x(
     "/html/body/div[2]/div/div[1]/div[1]/div[2]/div[2]/div[20]/div/div/div[2]/div[2]/div[1]"
   );
-  const text20b = await el4b.getProperty("textContent");
+  const text20b = await el20b.getProperty("textContent");
   Telephone = await text20b.jsonValue();
 
   data.push({ Title, Telephone });
@@ -396,13 +396,13 @@ async function scrapeProduct(url) {
   const [el21a] = await page.$x(
     "/html/body/div[2]/div/div[1]/div[1]/div[2]/div[2]/div[21]/div/div/div[2]/h2/a/span"
   );
-  const text4a = await el21a.getProperty("textContent");
+  const text21a = await el21a.getProperty("textContent");
   Title = await text21a.jsonValue();
 
   const [el21b] = await page.$x(
     "/html/body/div[2]/div/div[1]/div[1]/div[2]/div[2]/div[21]/div/div/div[2]/div[2]/div[1]"
   );
-  const text21b = await el4b.getProperty("textContent");
+  const text21b = await el21b.getProperty("textContent");
   Telephone = await text21b.jsonValue();
 
   data.push({ Title, Telephone });
@@ -415,13 +415,13 @@ async function scrapeProduct(url) {
   const [el22a] = await page.$x(
     "/html/body/div[2]/div/div[1]/div[1]/div[2]/div[2]/div[22]/div/div/div[2]/h2/a/span"
   );
-  const text4a = await el22a.getProperty("textContent");
+  const text22a = await el22a.getProperty("textContent");
   Title = await text22a.jsonValue();
 
   const [el22b] = await page.$x(
     "/html/body/div[2]/div/div[1]/div[1]/div[2]/div[2]/div[22]/div/div/div[2]/div[2]/div[1]"
   );
-  const text22b = await el4b.getProperty("textContent");
+  const text22b = await el22b.getProperty("textContent");
   Telephone = await text22b.jsonValue();
 
   data.push({ Title, Telephone });
@@ -434,13 +434,13 @@ async function scrapeProduct(url) {
   const [el23a] = await page.$x(
     "/html/body/div[2]/div/div[1]/div[1]/div[2]/div[2]/div[23]/div/div/div[2]/h2/a/span"
   );
-  const text4a = await el23a.getProperty("textContent");
+  const text23a = await el23a.getProperty("textContent");
   Title = await text23a.jsonValue();
 
   const [el23b] = await page.$x(
     "/html/body/div[2]/div/div[1]/div[1]/div[2]/div[2]/div[23]/div/div/div[2]/div[2]/div[1]"
   );
-  const text23b = await el4b.getProperty("textContent");
+  const text23b = await el23b.getProperty("textContent");
   Telephone = await text23b.jsonValue();
 
   data.push({ Title, Telephone });
@@ -472,13 +472,13 @@ async function scrapeProduct(url) {
   const [el25a] = await page.$x(
     "/html/body/div[2]/div/div[1]/div[1]/div[2]/div[2]/div[25]/div/div/div[2]/h2/a/span"
   );
-  const text4a = await el425.getProperty("textContent");
+  const text25a = await el25a.getProperty("textContent");
   Title = await text25a.jsonValue();
 
   const [el25b] = await page.$x(
     "/html/body/div[2]/div/div[1]/div[1]/div[2]/div[2]/div[25]/div/div/div[2]/div[2]/div[1]"
   );
-  const text4b = await el425.getProperty("textContent");
+  const text25b = await el25b.getProperty("textContent");
   Telephone = await text25b.jsonValue();
 
   data.push({ Title, Telephone });
@@ -491,13 +491,13 @@ async function scrapeProduct(url) {
   const [el26a] = await page.$x(
     "/html/body/div[2]/div/div[1]/div[1]/div[2]/div[2]/div[26]/div/div/div[2]/h2/a/span"
   );
-  const text4a = await el426.getProperty("textContent");
+  const text26a = await el26a.getProperty("textContent");
   Title = await text26a.jsonValue();
 
   const [el26b] = await page.$x(
     "/html/body/div[2]/div/div[1]/div[1]/div[2]/div[2]/div[26]/div/div/div[2]/div[2]/div[1]"
   );
-  const text4b = await el426.getProperty("textContent");
+  const text26b = await el26b.getProperty("textContent");
   Telephone = await text26b.jsonValue();
 
   data.push({ Title, Telephone });
@@ -510,13 +510,13 @@ async function scrapeProduct(url) {
   const [el27a] = await page.$x(
     "/html/body/div[2]/div/div[1]/div[1]/div[2]/div[2]/div[27]/div/div/div[2]/h2/a/span"
   );
-  const text4a = await el427.getProperty("textContent");
+  const text27a = await el27a.getProperty("textContent");
   Title = await text27a.jsonValue();
 
   const [el27b] = await page.$x(
     "/html/body/div[2]/div/div[1]/div[1]/div[2]/div[2]/div[27]/div/div/div[2]/div[2]/div[1]"
   );
-  const text4b = await el427.getProperty("textContent");
+  const text27b = await el27b.getProperty("textContent");
   Telephone = await text27b.jsonValue();
 
   data.push({ Title, Telephone });
@@ -529,13 +529,13 @@ async function scrapeProduct(url) {
   const [el28a] = await page.$x(
     "/html/body/div[2]/div/div[1]/div[1]/div[2]/div[2]/div[28]/div/div/div[2]/h2/a/span"
   );
-  const text4a = await el428.getProperty("textContent");
+  const text28a = await el28a.getProperty("textContent");
   Title = await text28a.jsonValue();
 
   const [el28b] = await page.$x(
     "/html/body/div[2]/div/div[1]/div[1]/div[2]/div[2]/div[28]/div/div/div[2]/div[2]/div[1]"
   );
-  const text4b = await el428.getProperty("textContent");
+  const text28b = await el28b.getProperty("textContent");
   Telephone = await text28b.jsonValue();
 
   data.push({ Title, Telephone });
@@ -548,13 +548,13 @@ async function scrapeProduct(url) {
   const [el29a] = await page.$x(
     "/html/body/div[2]/div/div[1]/div[1]/div[2]/div[2]/div[29]/div/div/div[2]/h2/a/span"
   );
-  const text4a = await el429.getProperty("textContent");
+  const text29a = await el29a.getProperty("textContent");
   Title = await text29a.jsonValue();
 
   const [el29b] = await page.$x(
     "/html/body/div[2]/div/div[1]/div[1]/div[2]/div[2]/div[29]/div/div/div[2]/div[2]/div[1]"
   );
-  const text4b = await el429.getProperty("textContent");
+  const text29b = await el29b.getProperty("textContent");
   Telephone = await text29b.jsonValue();
 
   data.push({ Title, Telephone });
@@ -567,13 +567,13 @@ async function scrapeProduct(url) {
   const [el30a] = await page.$x(
     "/html/body/div[2]/div/div[1]/div[1]/div[2]/div[2]/div[30]/div/div/div[2]/h2/a/span"
   );
-  const text4a = await el430.getProperty("textContent");
+  const text30a = await el30a.getProperty("textContent");
   Title = await text30a.jsonValue();
 
   const [el30b] = await page.$x(
     "/html/body/div[2]/div/div[1]/div[1]/div[2]/div[2]/div[30]/div/div/div[2]/div[2]/div[1]"
   );
-  const text4b = await el430.getProperty("textContent");
+  const text30b = await el30b.getProperty("textContent");
   Telephone = await text30b.jsonValue();
 
   data.push({ Title, Telephone });
@@ -586,6 +586,10 @@ async function scrapeProduct(url) {
   //
   console.log(data);
   //
+
+  console.log("Begin JSON WRITE")
+
+  
 }
 
 scrapeProduct(
