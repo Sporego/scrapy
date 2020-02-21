@@ -586,10 +586,6 @@ async function scrapeProduct(url) {
   //
   console.log(data);
   //
-
-  console.log("Begin JSON WRITE")
-
-  
 }
 
 scrapeProduct(
