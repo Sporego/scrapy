@@ -609,11 +609,11 @@ async function scrapeProduct(url) {
 
 let arr = [];
 
-for (i = 1; i < 101; i++) {
+for (i = 1; i < 63; i++) {
   (function(i) {
     setTimeout(function() {
       const url2 =
-        "https://www.yellowpages.com/search?search_terms=cpa&geo_location_terms=New%20York%2C%20NY&page=" +
+        "https://www.yellowpages.com/search?search_terms=dentist&geo_location_terms=Long%20Island%2C%20NY&page=" +
         i;
 
       scrapeProduct(url2);
